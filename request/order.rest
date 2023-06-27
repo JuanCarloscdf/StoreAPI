@@ -1,0 +1,14 @@
+###
+GET  http://localhost:3200/order/1
+###
+POST http://localhost:3200/order
+Content-Type: application/json
+
+{
+    "country": "irak",
+    "state": "bagdad", 
+    "adress": "halammoleicumms # 3", 
+    "user_id": 1,   
+    "total": 2500,     
+    "method_id": 2   
+}

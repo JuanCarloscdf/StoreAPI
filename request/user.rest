@@ -1,0 +1,41 @@
+GET http://localhost:3200/user
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiJjbGllbnQiLCJ1c2VyX2lkIjo5LCJpYXQiOjE2ODExNjg1NTQsImV4cCI6MTY4MTg4ODU1NH0.IOtEwzDXA6EiCuSP3UPOVuqk6tQRR5CUUsjOuG-8DXk
+
+###
+GET http://localhost:3200/user/9
+
+###
+POST http://localhost:3200/user
+Content-Type: application/json
+
+{
+    "first_name" :  "clean eqstwood",
+    "last_name" : "pechos parados",
+    "email" : "good@boy.com",
+    "password" : "password",
+    "cellphone" : "465613213",
+    "user_type_id": 4
+}
+###
+PUT http://localhost:3200/user/9
+Content-Type: application/json
+
+{
+    "first_name" :  "clean eqstwood 4.0",
+    "last_name" : "pechos parados",
+    "email" : "good@boy.com",
+    "password" : "password",
+    "cellphone" : "465613213",
+    "user_type_id": 4 
+}
+###
+DELETE http://localhost:3200/user/11
+###
+PATCH http://localhost:3200/user/5
+Content-Type: application/json.
+
+{
+    "atribute": "email",
+    "value": "zz@zz.com"
+}
+

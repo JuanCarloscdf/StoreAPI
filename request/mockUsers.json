@@ -1,0 +1,37 @@
+[{
+    "first_name" : "many",
+    "last_name" : "paquao",
+    "email" : "toma@ten.com",
+    "password" : "123456",
+    "cellphone" : "8956533323",
+    "user_type_id": 3 
+},{
+ 
+    "first_name" : "juan carlos",
+    "last_name" : "mamani rojas",
+    "email" : "juan@juan.com",
+    "password" : "123456",
+    "cellphone" : "73080372",
+    "user_type_id": 1
+},{
+    "first_name" : "mudu dev",
+    "last_name" : "pañales rojos",
+    "email" : "midu@conf.com",
+    "password" : "123456",
+    "cellphone" : "8562232",
+    "user_type_id": 2
+},{
+    "first_name" :  "elon musk",
+    "last_name" : "bolsillos locos",
+    "email" : "star@link.com",
+    "password" : "123456",
+    "cellphone" : "1154733",
+    "user_type_id": 3
+},{
+    "first_name" :  "clean eqstwood",
+    "last_name" : "pechos parados",
+    "email" : "good@boy.com",
+    "password" : "password",
+    "cellphone" : "465613213",
+    "user_type_id": 4
+}]

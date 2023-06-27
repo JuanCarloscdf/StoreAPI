@@ -1,0 +1,4 @@
+mysql-data
+mysqlConfig
+node_modules
+.env
